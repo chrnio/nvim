@@ -30,9 +30,14 @@
 
 ## Installation
 
-```sh
+```bash
+# back-up your old neovim config
 mv ~/.config/nvim ~/.config/nvim.bak
-cp -r nvim ~/.config/nvim
+
+# clone my config and place it in ~/.config
+git clone https://github.com/chrnio/nvim.git ~/.config/nvim
+
+# run neovim
 nvim
 ```
 That's it. 
