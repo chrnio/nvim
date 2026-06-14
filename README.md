@@ -36,7 +36,7 @@
 > ```
 
 ## Installation
-Please make sure that the above mentioned dependencies are installed before using this configuration.
+Make sure you have the dependencies listed above installed.
 
 ```bash
 # back-up your old neovim config
