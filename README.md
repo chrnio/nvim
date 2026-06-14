@@ -18,7 +18,7 @@
 - LaTeX build-on-save + Okular forward search
 - Python venv auto-detection
 
-## Dependencies
+## Requirements
 - Neovim >= 0.10
 -  A Nerd font like `JetBrainsMono`
 - `git`, `make`, `gcc` or `clang`
@@ -27,6 +27,13 @@
 - `latexmk` + a TeX distribution
 - `lazygit` (optional, `<leader>gg`)
 - `lldb-dap` or `codelldb` (optional, Rust/C debugging)
+
+> [!Note]
+> On Arch Linux, most dependencies can be installed with:
+>
+> ```bash
+> sudo pacman -S neovim git make gcc ripgrep fd nodejs python rust go jdk-openjdk
+> ```
 
 ## Installation
 Please make sure that the above mentioned dependencies are installed before using this configuration.
