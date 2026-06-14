@@ -29,6 +29,7 @@
 - `lldb-dap` or `codelldb` (optional, Rust/C debugging)
 
 ## Installation
+Please make sure that the above mentioned dependencies are installed before using this configuration.
 
 ```bash
 # back-up your old neovim config
