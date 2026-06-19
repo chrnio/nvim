@@ -100,4 +100,3 @@ function M.setup(opts)
 end
 
 return M
-
